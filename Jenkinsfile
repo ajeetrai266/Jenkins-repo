@@ -7,7 +7,7 @@ pipeline{
       
       steps{
         
-        sh "kubectl apply -f pod-1.yml --kubeconfig /workspace/K8s/ajeet.kubeconfig"
+        sh "kubectl apply -f pod-1.yml --kubeconfig /workspace/K8s/minikube-admin.conf"
       }
     }
   }
