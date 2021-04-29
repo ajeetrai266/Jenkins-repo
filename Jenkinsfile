@@ -7,7 +7,7 @@ pipeline{
       
       steps{
         
-        sh "kubectl apply -f pod-1.yml --kubeconfig /minikube-admin.conf"
+        sh "sudo kubectl apply -f pod-1.yml --kubeconfig /minikube-admin.conf"
       }
     }
   }
