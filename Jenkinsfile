@@ -3,7 +3,7 @@ pipeline{
   agent any
   stages{
   
-    stage{'pod_launch'){
+    stage('pod-launch'){
       
       steps{
         
